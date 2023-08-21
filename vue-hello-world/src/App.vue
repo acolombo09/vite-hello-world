@@ -1,10 +1,12 @@
 <script>
 import HelloWorld from './components/HelloWorld.vue'
 import Helloworld from "./components/AppTitle.vue"
+import Hero from "./components/Hero.vue"
 
 export default {
   components: {
-    Helloworld
+    Helloworld,
+    Hero
   }
 }
 
@@ -21,6 +23,7 @@ export default {
   </div>
   <HelloWorld msg="Vite + Vue" />
   <Helloworld></Helloworld>
+  <Hero></Hero>
 </template>
 
 <style>
